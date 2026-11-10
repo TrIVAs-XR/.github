@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title">
+  <title id="title">The Unity client exchanges audio and data with the Pipecat agent in XAI-Companion-Backend through the LiveKit server. In the client, the agent package from the public XAI-Companion-XR repository is used both by its Rocketbox demo and by the study project in the private XAI-Companion-Studies repository.</title>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; text-anchor: middle; }
+    .name { font-size: 14px; font-weight: 600; }
+    .part { font-size: 13px; }
+    .sub { font-size: 12px; fill: #59636e; }
+    .label { font-size: 12px; fill: #59636e; }
+    .box { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1.5; }
+    .client { fill: #ddf4ff; stroke: #54aeff; stroke-width: 1.5; }
+    .stage { fill: #ffffff; stroke: #54aeff; stroke-width: 1.5; }
+    .public { fill: none; stroke: #0969da; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .private { fill: none; stroke: #818b98; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .link { stroke: #818b98; stroke-width: 1.5; fill: none; }
+    .head { fill: #818b98; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #e6edf3; }
+      .sub, .label { fill: #9198a1; }
+      .box { fill: #151b23; stroke: #3d444d; }
+      .client { fill: #0d2a4f; stroke: #1f6feb; }
+      .stage { fill: #0d1117; stroke: #1f6feb; }
+      .public { stroke: #4493f8; }
+      .private { stroke: #9198a1; }
+      .link { stroke: #9198a1; }
+      .head { fill: #9198a1; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <rect class="client" x="10" y="10" width="480" height="280" rx="8"/>
+  <text class="name" x="250" y="32">Unity client</text>
+
+  <rect class="public" x="22" y="44" width="456" height="120" rx="6"/>
+  <text class="sub" x="250" y="64">XAI-Companion-XR (public)</text>
+
+  <rect class="stage" x="216" y="76" width="250" height="76" rx="6"/>
+  <text class="name" x="341" y="106">Agent package</text>
+  <text class="sub" x="341" y="126">connection, state, lip sync, gaze</text>
+
+  <rect class="box" x="34" y="76" width="166" height="76" rx="6"/>
+  <text class="part" x="117" y="106">Rocketbox demo</text>
+  <text class="sub" x="117" y="126">sample, open avatar</text>
+
+  <line class="link" x1="202" y1="114" x2="214" y2="114" marker-end="url(#arrow)"/>
+
+  <rect class="private" x="22" y="180" width="456" height="98" rx="6"/>
+  <text class="sub" x="34" y="200" style="text-anchor: start">XAI-Companion-Studies (private)</text>
+
+  <rect class="box" x="258" y="212" width="166" height="56" rx="6"/>
+  <text class="part" x="341" y="236">Study project</text>
+  <text class="sub" x="341" y="254">licensed avatar, scenarios</text>
+
+  <line class="link" x1="341" y1="210" x2="341" y2="154" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <text class="label" x="333" y="200" style="text-anchor: end">uses the package</text>
+
+  <line class="link" x1="492" y1="114" x2="546" y2="114" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text class="label" x="519" y="90">audio</text>
+  <text class="label" x="519" y="105">and data</text>
+
+  <rect class="box" x="550" y="82" width="112" height="64" rx="8"/>
+  <text class="name" x="606" y="109">LiveKit</text>
+  <text class="sub" x="606" y="129">server</text>
+
+  <line class="link" x1="664" y1="114" x2="708" y2="114" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  <rect class="public" x="692" y="44" width="202" height="140" rx="6"/>
+  <text class="sub" x="793" y="64">XAI-Companion-Backend (public)</text>
+
+  <rect class="stage" x="710" y="76" width="166" height="96" rx="6"/>
+  <text class="name" x="793" y="100">Pipecat agent</text>
+  <text class="sub" x="793" y="120">speech recognition</text>
+  <text class="sub" x="793" y="138">language model</text>
+  <text class="sub" x="793" y="156">speech synthesis</text>
+</svg>
