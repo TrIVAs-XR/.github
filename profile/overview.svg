@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title">
-  <title id="title">The Unity client exchanges audio and data with the Pipecat agent in XAI-Companion-Backend through the LiveKit server. In the client, the agent package from the public XAI-Companion-XR repository is used both by its Rocketbox demo and by the study project in the private XAI-Companion-Studies repository.</title>
+  <title id="title">The Unity client exchanges audio and data with the Pipecat agent in TrIVA-Backend through the LiveKit server. In the client, the agent package from the public TrIVA-Unity repository is used both by its Rocketbox demo and by the study project in the private TrIVA-Studies repository.</title>
   <style>
     text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; text-anchor: middle; }
     .name { font-size: 14px; font-weight: 600; }
@@ -35,7 +35,7 @@
   <text class="name" x="250" y="32">Unity client</text>
 
   <rect class="public" x="22" y="44" width="456" height="120" rx="6"/>
-  <text class="sub" x="250" y="64">XAI-Companion-XR (public)</text>
+  <text class="sub" x="250" y="64">TrIVA-Unity (public)</text>
 
   <rect class="stage" x="216" y="76" width="250" height="76" rx="6"/>
   <text class="name" x="341" y="106">Agent package</text>
@@ -48,7 +48,7 @@
   <line class="link" x1="202" y1="114" x2="214" y2="114" marker-end="url(#arrow)"/>
 
   <rect class="private" x="22" y="180" width="456" height="98" rx="6"/>
-  <text class="sub" x="34" y="200" style="text-anchor: start">XAI-Companion-Studies (private)</text>
+  <text class="sub" x="34" y="200" style="text-anchor: start">TrIVA-Studies (private)</text>
 
   <rect class="box" x="258" y="212" width="166" height="56" rx="6"/>
   <text class="part" x="341" y="236">Study project</text>
@@ -68,7 +68,7 @@
   <line class="link" x1="664" y1="114" x2="708" y2="114" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
 
   <rect class="public" x="692" y="44" width="202" height="140" rx="6"/>
-  <text class="sub" x="793" y="64">XAI-Companion-Backend (public)</text>
+  <text class="sub" x="793" y="64">TrIVA-Backend (public)</text>
 
   <rect class="stage" x="710" y="76" width="166" height="96" rx="6"/>
   <text class="name" x="793" y="100">Pipecat agent</text>
